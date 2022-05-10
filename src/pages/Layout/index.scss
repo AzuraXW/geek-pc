@@ -1,0 +1,24 @@
+.ant-layout {
+  height: 100%;
+  overflow: hidden;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 90px;
+    height: 40px;
+    background: url(~@/assets/logo.png) no-repeat center / 160px auto;
+  }
+  .user-info {
+    color: #fff;
+    .user-name {
+      margin-right: 20px;
+    }
+    .user-logout {
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.login {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../assets/login.png) no-repeat;
+  background-size: cover;
+  .login-container {
+    width: 450px;
+    .logo-img {
+      text-align: center;
+      margin-bottom: 20px;
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+  .login-form {
+    .login-checkbox-label {
+      color: #1890ff;
+    }
+  }
+}
